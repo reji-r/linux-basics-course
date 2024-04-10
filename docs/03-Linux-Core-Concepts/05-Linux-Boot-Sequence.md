@@ -28,7 +28,7 @@ In this section, we look at the boot process in a simplied manner by dividing it
  - The next stage after BIOS POST is **`Boot Loader`** after successful of POST test.
  - BIOS loads and executes the boot code from the boot device, which is located in the first sector of the harddisk. In Linux this is located in the **`/boot`** file system.
  - The boot loader will provide the user with the boot screen, often with multiple options to boot into. Such as Microsoft windows O.S or Ubuntu 18.04 O.S in an example of a dual boot system.
- - Once the selection is made at the boot screen, boot laoder loads the kernel into the memory supplies it with some parameters and handsover the control to kernel
+ - Once the selection is made at the boot screen, boot loader loads the kernel into the memory supplies it with some parameters and handsover the control to kernel
  - A popular example of the boot loader is **`GRUB2`** (GRand Unified Bootloader Version 2). Its a primary boot loader now for most of the operating system.
  
  ![boot-loader](../../images/boot-loader.PNG)
